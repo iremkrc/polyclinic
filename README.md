@@ -1,7 +1,7 @@
 # polyclinic
 An information system with gui, for patient follow-up and doctor appointment procedures.
 
-## Features
+## Features:
 Following operations are executed via graphical user interface:
 - Register patients
 - Display the registered patients in a given clinic, sorted by age. In the case of the same age, they should be sorted by gender (female first).
@@ -12,13 +12,13 @@ Following operations are executed via graphical user interface:
 - Calculate the profit of the clinic which specifies the drug and visit profits.
 - Calculate the incomes of the doctors.
 
-## Initial GUI
+### Initial GUI
 
 ![image](https://user-images.githubusercontent.com/66200657/123640038-70a43300-d829-11eb-81b4-355d591eb9bd.png)
 
 GUI includes 4 different JPanels which are for registration, appointment, treatment and calculation.
 
-## Usage of GUI for patients
+### Usage of GUI for patients
 
 1. To register:
 
@@ -36,7 +36,7 @@ GUI includes 4 different JPanels which are for registration, appointment, treatm
 
 ![image](https://user-images.githubusercontent.com/66200657/123642612-296b7180-d82c-11eb-900b-57fb8fdcd3e8.png)
 
-## Usage of GUI for doctors:
+### Usage of GUI for doctors:
 
 1. To see their schedule or total income:
 
@@ -50,4 +50,17 @@ GUI includes 4 different JPanels which are for registration, appointment, treatm
 
 ![image](https://user-images.githubusercontent.com/66200657/123644374-00e47700-d82e-11eb-9bcb-13b0dc83d934.png)
 
+
+## Run polyclinic locally
+
+### Step 1: clone the project
+    git clone https://github.com/iremkrc/polyclinic.git
+    cd polyclinic/src
+    
+### Step 2: install needed packages if they are not exist
+    sudo apt install default-jdk
+
+### Step 3: compile and run the project
+    javac test/Test.java
+    java test/Test
 
