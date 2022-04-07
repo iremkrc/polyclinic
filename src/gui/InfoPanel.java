@@ -64,7 +64,7 @@ public class InfoPanel extends JPanel implements MyInterface {
 
 		JButton income = createButton("Calculate Total Income");
 		income.addActionListener(new ActionListener() {
-			//When calculate total income button is clicked, current doctor’s getIncome method is called, and printed to the JTextArea.
+			//When calculate total income button is clicked, current doctors getIncome method is called, and printed to the JTextArea.
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				String incomeText = "$" + String.valueOf(currentDr.getIncome());

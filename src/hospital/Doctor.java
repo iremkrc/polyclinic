@@ -59,7 +59,7 @@ public class Doctor {
 		patientList.add(p);
 	}
 	
-	//This method returns a String which includes Doctor’s suggestions.
+	//This method returns a String which includes Doctors suggestions.
 	public String treatment(Clinic c, Patient p) {
 		Drug suggested = c.getDrugList().get(0);
 		ArrayList<String> conflict = suggested.getConflictingDrugs();
